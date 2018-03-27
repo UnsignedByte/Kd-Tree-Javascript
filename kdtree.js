@@ -3,7 +3,7 @@
  * @Date:   18:50:17, 27-Feb-2018
  * @Filename: kdtree.js
  * @Last modified by:   edl
- * @Last modified time: 10:35:34, 28-Feb-2018
+ * @Last modified time: 17:42:49, 01-Mar-2018
  */
 
 function kdTree(pointList, thisPos){
@@ -55,5 +55,3 @@ function Node(obj, parent, dim){
   this.parent = parent;
   this.dimension = dim;
 }
-
-export kdTree
